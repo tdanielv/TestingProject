@@ -43,6 +43,7 @@ class DrawingPlots():
         plt.xlabel('Real')
         plt.ylabel('Predicted')
         path = os.path.join(os.getcwd() + '/plots/', f'confusion_matrix.png')
+        plt.title('Матрица путаницы')
         plt.savefig(path)
         plt.show()
 
