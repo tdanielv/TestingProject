@@ -1,10 +1,12 @@
-import json
 import os.path
+import requests
 import matplotlib.pyplot as plt
 import pandas as pd
-import requests
+import json
 import seaborn
 from sklearn.metrics import confusion_matrix as cm
+
+
 class DrawingPlots():
 
     def __init__(self, json_data):
@@ -53,16 +55,16 @@ class DrawingPlots():
 
         return [i for i in pathes_to_plots()]
 
-url = 'https://ai-process-sandy.s3.eu-west-1.amazonaws.com/purge/deviation.json'
-
-response = requests.get(url)
-if response.status_code == 200:
-    data = response.json()
-    with open('data.json', 'w') as file:
-        json.dump(data, file)
-else:
-    print('Url is incorrect')
-with open('data.json', 'r') as data:
-    a = DrawingPlots(data)
-    print(a.draw_plots())
+if __name__ == "__main__":
+    url = 'https://ai-process-sandy.s3.eu-west-1.amazonaws.com/purge/deviation.json'
+    response = requests.get(url)
+    if response.status_code == 200:
+        data = response.json()
+        with open('data.json', 'w') as file:
+            json.dump(data, file)
+    else:
+        print('Url is incorrect')
+    with open('data.json', 'r') as data:
+        a = DrawingPlots(data)
+        print(a.draw_plots())
 
