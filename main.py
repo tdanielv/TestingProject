@@ -55,7 +55,7 @@ class DrawingPlots():
 
         return [i for i in pathes_to_plots()]
 
-if __name__ == "__main__":
+def main():
     url = 'https://ai-process-sandy.s3.eu-west-1.amazonaws.com/purge/deviation.json'
     response = requests.get(url)
     if response.status_code == 200:
@@ -67,4 +67,8 @@ if __name__ == "__main__":
     with open('data.json', 'r') as data:
         a = DrawingPlots(data)
         print(a.draw_plots())
+
+if __name__ == "__main__":
+    main()
+
 
