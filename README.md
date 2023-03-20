@@ -33,3 +33,11 @@ meaningful statistics of how well the model performed**.
 7. Email us with link to your project
 ***
    ######Nb if something is not clear do not hesitate to ask
+
+
+###The first you need:
+in terminal:
+   * '$ pip install -r requirements.txt'
+   * '$ virtualvenev venvironment'
+   * '$ venvironment/Scripts/activate'
+   * '$ python main.py'
