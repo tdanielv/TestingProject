@@ -41,3 +41,19 @@ in terminal:
    * '$ virtualvenev venvironment'
    * '$ venvironment/Scripts/activate'
    * '$ python main.py'
+
+##Total plots:
+On the last plot we can see that model gave good result(100% predict)
+![](plots/ceiling_max_floor_max.png)
+![](plots/ceiling_mean_floor_mean.png)
+![](plots/ceiling_min_floor_min.png)
+![](plots/mean_floor_mean.png)
+![](plots/max_ceiling_max.png)
+![](plots/max_floor_max.png)
+![](plots/mean_ceiling_mean.png)
+![](plots/min_ceiling_min.png)
+![](plots/min_floor_min.png)
+![](plots/confusion_matrix.png)
+
+
+
