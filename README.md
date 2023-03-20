@@ -2,7 +2,7 @@
 ---
 ---
 
-**Download pandas json** :
+**Pandas json link** :
 >https://ai-process-sandy.s3.eu-west-1.amazonaws.com/purge/deviation.json
 ***
 **Context**:
