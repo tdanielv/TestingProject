@@ -32,7 +32,7 @@ meaningful statistics of how well the model performed**.
 6. Publish the project on github
 7. Email us with link to your project
 ***
-######Nb if something is not clear do not hesitate to ask
+#####Nb if something is not clear do not hesitate to ask
 
 
 ### The first you need:
