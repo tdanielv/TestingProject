@@ -35,14 +35,14 @@ meaningful statistics of how well the model performed**.
    ######Nb if something is not clear do not hesitate to ask
 
 
-###The first you need:
+### The first you need:
 in terminal:
    * '$ pip install -r requirements.txt'
    * '$ virtualvenev venvironment'
    * '$ venvironment/Scripts/activate'
    * '$ python main.py'
 
-##Total plots:
+## Total plots:
 On the last plot we can see that model gave good result(100% predict)
 ![](plots/ceiling_max_floor_max.png)
 ![](plots/ceiling_mean_floor_mean.png)
